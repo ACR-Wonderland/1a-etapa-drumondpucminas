@@ -7,7 +7,7 @@ const PORT = 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Middleware para interpretar o corpo de requisições POST com URL encoded
+// Middleware para interpretar o corpo de requisições POST com URL encode
 app.use(express.urlencoded({ extended: true }));
 
 // Rota Raiz: GET /
