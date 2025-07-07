@@ -7,17 +7,10 @@ const PORT = 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Middleware para interpretar o corpo de requisições POST com URL encode
-app.use(express.urlencoded({ extended: true }));
 
 // Rota Raiz: GET /
 app.get('/', (req, res) => {
-    let count = 0
-    while(true) {
-        count ++
-    }
     res.sendFile(path.join(__dirname, 'public/views', 'index.html'));
-
 });
 
 // Rota de Sugestão: GET /sugestao
@@ -41,18 +34,18 @@ app.get('/sugestao', (req, res) => {
 });
 
 // Rota para a página de contatos: GET /contato
-app.get('contato', (req, res) => {
+app.get('/contato', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/views', 'contato.html'));
 });
 
 // Rota para receber dados do formulário de contato: POST /contato
 app.post('/contato', (req, res) => {
-    const { nome, email, assunto, mensagem } = req.body;
+    const { nome, email, assunto, mensagem } = req.query; 
     const filePath = path.join(__dirname, 'public/views', 'contato-recebido.html');
 
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
-            return res.status(401).send('Erro ao processar sua mensagem.');
+            return res.status(500).send('Erro ao processar sua mensagem.');
         }
 
         // Substitui os placeholders pelos dados do corpo da requisição
@@ -68,7 +61,7 @@ app.post('/contato', (req, res) => {
 });
 
 // Rota da API de Lanches: GET /api/lanches
-app.post('/api/lanches', (req, res) => {
+app.get('/api/lanches', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'data', 'lanches.json'));
 });
 
