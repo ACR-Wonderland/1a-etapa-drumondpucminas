@@ -7,7 +7,6 @@ const PORT = 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-
 // Rota Raiz: GET /
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/views', 'index.html'));
