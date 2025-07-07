@@ -4,7 +4,7 @@ Bem-vindo(a) ao desafio de desenvolvimento do protótipo de um cardápio digital
 
 O objetivo é criar uma aplicação web simples e funcional utilizando Node.js e Express. Nesta primeira fase, não nos preocuparemos com bancos de ados; toda a lógica de exibição e recebimento de ddos será gerenciada diretamente pelo servidor.
 
-## Visão Geral do Projeto
+## Visão Geral do Proje
 
 Este projeto consiste em um pequeno servidor web que apresenta o cardápio da hamburgueria e permite que os clientes enviem sugestões de novos lanches. É uma excelente oportunidade para praticar conceitos fundamentais de back-end com Node.js, como a criação de servidores, o gerenciamento de rotas e o tratamento de formulários.
 
