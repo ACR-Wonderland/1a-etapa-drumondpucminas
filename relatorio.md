@@ -1,4 +1,4 @@
-
+q
 --- ☠️ ERROS FATAIS ENCONTRADOS ☠️ ---
 Seu projeto não pode ser testado devido aos seguintes problemas críticos:
 
