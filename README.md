@@ -11,7 +11,7 @@ Este projeto consiste em um pequeno servidor web que apresenta o cardápio da ha
 ## Estrutura de Arquivos
 
 Para manter o projeto organizado, tente seguir a seguinte estrutura de diretórios e arquivos:
-
+a
 ```bash
 devburger/
 ├── public/
