@@ -74,5 +74,5 @@ app.use((req, res, next) => {
 
 // Inicia o servidor
 app.listen(PORT, () => {
-    console.log(`Servidor da DevBurger rodando em http://localhost:${PORT}`);
+    console.log(`Servidor da DevBurger rodando em http://localhost:${PORT} em modo de desenvolvimento`);
 });
