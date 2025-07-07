@@ -8,7 +8,7 @@ Parabéns pela sua implementação! Você fez um ótimo trabalho em geral. Aqui 
 - As rotas GET e POST foram implementadas corretamente para as páginas raiz, sugestão e contato.
 - A manipulação de arquivos para leitura e substituição de placeholders nos arquivos HTML está correta.
 - Você lidou adequadamente com a leitura do corpo das requisições POST.
-- A rota da API de lanches retorna os dados corretos no formato JSON.
+- A rota da API de lanches retorna os dados corretos no formato JSON
 - O tratamento do erro 404 foi implementado de forma satisfatória.
 
 #### Áreas de melhoria:
