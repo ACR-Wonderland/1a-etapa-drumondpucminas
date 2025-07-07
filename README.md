@@ -2,7 +2,7 @@ a# Desafio: Protótipo de Cardápio Digital - DevBurger
 
 Bem-vindo(a) ao desafio de desenvolvimento do protótipo de um cardápio digital para a nossa nova hamburgueria gourmet, a "DevBurger"!
 
-O objetivo é criar uma aplicação web simples e funcional utilizando Node.js e Express. Nesta primeira fase, não nos preocuparemos com bancos de dados; toda a lógica de exibição e recebimento de ddos será gerenciada diretamente pelo servidor.
+O objetivo é criar uma aplicação web simples e funcional utilizando Node.js e Express. Nesta primeira fase, não nos preocuparemos com bancos de ados; toda a lógica de exibição e recebimento de ddos será gerenciada diretamente pelo servidor.
 
 ## Visão Geral do Projeto
 
