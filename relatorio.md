@@ -14,8 +14,7 @@ Vamos analisar juntos o seu código para entender e corrigir os requisitos que p
 
 ### Requisitos que Precisam de Atenção 🛠️
 1. **Rota: /contato (POST) - página de resposta deve exibir o "nome" enviado no formulário**
-2. **Rota: /contato (POST) - página de resposta deve exibir o "email" enviado no formulário**
-3. **Rota: /contato (POST) - página de resposta deve exibir o "assunto" enviado no formulário**
+2. **Rota: /contato (POST) - página de resposta deve exibir o "email" enviado no formulário** a
 4. **Rota: /contato (POST) - página de resposta deve exibir o "mensagem" enviada no formulário**
 
 Agora, vamos investigar a causa raiz dos problemas. Ao analisar o seu código, percebi que a rota `app.post('/contato', ...)` está corretamente implementada para lidar com os dados do formulário de contato. No entanto, ao observar mais de perto, notei que você está tentando acessar os dados do formulário usando `req.query`, mas dados de formulários enviados via método POST devem ser acessados usando `req.body` em vez de `req.query`. Esse é o motivo pelo qual os dados não estão sendo exibidos corretamente na página de resposta. Vamos corrigir isso juntos!
