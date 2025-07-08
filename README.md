@@ -27,7 +27,7 @@ devburger/
 │   ├── index.html
 │          .       
 │          .
-│          .
+│          . 
 │
 ├── .gitignore
 ├── package-lock.json
