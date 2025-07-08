@@ -10,7 +10,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/views', 'index.html'));
 });
-
 // Rota de Sugestão: GET /sugestao
 app.get('/sugestao', (req, res) => {
     const { nome, ingredientes } = req.query;
