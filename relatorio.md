@@ -15,7 +15,7 @@ Você tem 9 créditos restantes para usar o sistema de feedback AI.
 ### Sugestões de Melhoria:
 - Para corrigir a rota de contato, você deve utilizar `express.json()` ou `express.urlencoded()` para conseguir acessar os dados enviados no corpo da requisição.
 - Ao substituir os placeholders no HTML, você pode utilizar expressões regulares ou pacotes como `mustache.js` para uma substituição mais robusta e eficiente.
-
+ 
 ### Observações Gerais:
 - Você demonstrou um bom entendimento da estrutura básica de um servidor Node.js com Express.js.
 - A organização do código está relativamente boa, mas você pode melhorar a legibilidade adicionando comentários explicativos em trechos mais complexos.
