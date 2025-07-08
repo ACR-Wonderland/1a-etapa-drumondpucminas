@@ -1,6 +1,8 @@
-<sup>Suas cotas de feedback AI acabaram, o sistema de feedback voltou ao padrão.</sup># 🧪 Relatório de Avaliação – Journey Levty Etapa 1 - ArthurCRodrigues
+<sup>Suas cotas de feedback AI acabaram, o sistema de feedback voltou ao padrão.</sup>
 
-**Data:** 08/07/2025 15:11
+# 🧪 Relatório de Avaliação – Journey Levty Etapa 1 - ArthurCRodrigues
+
+**Data:** 08/07/2025 15:15
 
 **Nota Final:** `95.78/100`
 **Status:** ✅ Aprovado
@@ -9,10 +11,10 @@
 ## ✅ Requisitos Obrigatórios
 - Foram encontrados `4` problemas nos requisitos obrigatórios. Veja abaixo os testes que falharam:
   - ⚠️ **Falhou no teste**: `Route: /contato (POST) - página de resposta deve exibir o "nome" enviado no formulário`
-    - **Melhoria sugerida**: O 'nome' enviado via POST para `/contato` não foi encontrado na página de resposta.  aPara exibir os dados, você precisa recebê-los com `req.body.nome` (não se esqueça do middleware `express.urlencoded`) e inseri-los no HTML de resposta.
+    - **Melhoria sugerida**: O 'nome' enviado via POST para `/contato` não foi encontrado na página de resposta. Para exibir os dados, você precisa recebê-los com `req.body.nome` (não se esqueça do middleware `express.urlencoded`) e inseri-los no HTML de resposta.
   - ⚠️ **Falhou no teste**: `Route: /contato (POST) - página de resposta deve exibir o "email" enviado no formulário`
     - **Melhoria sugerida**: O 'email' enviado pelo formulário não apareceu na página de resposta. Verifique se você está pegando o dado de `req.body.email` e o incluindo no HTML de confirmação.
-  - ⚠️ **Falhou no teste**: `Route: /contato (POST) - página de resposta deve exibir o "assunto" enviado no formuláraio`
+  - ⚠️ **Falhou no teste**: `Route: /contato (POST) - página de resposta deve exibir o "assunto" enviado no formulário`
     - **Melhoria sugerida**: O 'assunto' da mensagem não foi encontrado na página de resposta do formulário. Lembre-se de capturar `req.body.assunto` e mostrá-lo ao usuário no HTML.
   - ⚠️ **Falhou no teste**: `Route: /contato (POST) - página de resposta deve exibir o "mensagem" enviada no formulário`
     - **Melhoria sugerida**: A 'mensagem' enviada via formulário não está sendo exibida na página de resposta. Certifique-se de que `req.body.mensagem` está sendo capturado e renderizado no HTML de confirmação.
