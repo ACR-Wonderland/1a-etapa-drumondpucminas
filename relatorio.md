@@ -1,36 +1,31 @@
-<sup>Suas cotas de feedback AI acabaram, o sistema de feedback voltou ao padrão.</sup>
+<sup>Esse é um feedback gerado por IA, ele pode conter erros.</sup>
 
-# 🧪 Relatório de Avaliação – Journey Levty Etapa 1 - ArthurCRodrigues
+Você tem 6 créditos restantes para usar o sistema de feedback AI.
 
-**Data:** 08/07/2025 15:15
+# Feedback para drumondpucminas:
 
-**Nota Final:** `95.78/100`
-**Status:** ✅ Aprovado
+Nota final: **95.8/100**
 
----
-## ✅ Requisitos Obrigatórios
-- Foram encontrados `4` problemas nos requisitos obrigatórios. Veja abaixo os testes que falharam:
-  - ⚠️ **Falhou no teste**: `Route: /contato (POST) - página de resposta deve exibir o "nome" enviado no formulário`
-    - **Melhoria sugerida**: O 'nome' enviado via POST para `/contato` não foi encontrado na página de resposta. Para exibir os dados, você precisa recebê-los com `req.body.nome` (não se esqueça do middleware `express.urlencoded`) e inseri-los no HTML de resposta.
-  - ⚠️ **Falhou no teste**: `Route: /contato (POST) - página de resposta deve exibir o "email" enviado no formulário`
-    - **Melhoria sugerida**: O 'email' enviado pelo formulário não apareceu na página de resposta. Verifique se você está pegando o dado de `req.body.email` e o incluindo no HTML de confirmação.
-  - ⚠️ **Falhou no teste**: `Route: /contato (POST) - página de resposta deve exibir o "assunto" enviado no formulário`
-    - **Melhoria sugerida**: O 'assunto' da mensagem não foi encontrado na página de resposta do formulário. Lembre-se de capturar `req.body.assunto` e mostrá-lo ao usuário no HTML.
-  - ⚠️ **Falhou no teste**: `Route: /contato (POST) - página de resposta deve exibir o "mensagem" enviada no formulário`
-    - **Melhoria sugerida**: A 'mensagem' enviada via formulário não está sendo exibida na página de resposta. Certifique-se de que `req.body.mensagem` está sendo capturado e renderizado no HTML de confirmação.
+Olá, drumondpucminas! 🚀
 
-## ⭐ Itens de Destaque (recupera até 40 pontos)
-- Você conquistou `3` bônus! Excelente trabalho nos detalhes adicionais!
-  - 🌟 **Testes bônus passados**: `estudante criou template exibido em requisições 404 contendo uma âncora para a rota raíz`
-    - Excelente! Você criou uma página de erro 404 personalizada e amigável, com um link para a home. Isso melhora muito a experiência quando o usuário se perde no site.
-  - 🌟 **Testes bônus passados**: `estudante utilizou corretamente as tags label e attributo id nos inputs 'nome' e 'ingredientes' na rota /sugestao`
-    - Acessibilidade em dia! As `labels` do formulário de sugestão estão corretamente ligadas aos seus `inputs` usando `for` e `id`. Isso ajuda usuários de leitores de tela e melhora a usabilidade para todos. Ótimo trabalho!
-  - 🌟 **Testes bônus passados**: `estudante utilizou corretamente as tags label e attributo id nos inputs 'nome', 'email', 'assunto' and 'mensagem' do fomulário da rota /contato (GET)`
-    - Parabéns! O formulário de contato também segue as melhores práticas de acessibilidade, com todas as `labels` corretamente associadas aos seus campos.
+Parabéns pela sua nota incrível de **95.78/100**! Você está muito próximo da excelência, e tenho certeza de que com um pouco de ajuste, você vai chegar lá!
 
-## ❌ Problemas Detectados (Descontos de até 100 pontos)
-- Nenhuma infração grave foi detectada. Muito bom nesse aspecto!
+Vamos analisar juntos o seu código para entender e corrigir os requisitos que precisam de atenção:
 
----
-Continue praticando e caprichando no código. Cada detalhe conta! 💪
-Se precisar de ajuda, não hesite em perguntar nos canais da guilda. Estamos aqui para ajudar! 🤝
+### Requisitos que Precisam de Atenção 🛠️
+1. **Rota: /contato (POST) - página de resposta deve exibir o "nome" enviado no formulário**
+2. **Rota: /contato (POST) - página de resposta deve exibir o "email" enviado no formulário**
+3. **Rota: /contato (POST) - página de resposta deve exibir o "assunto" enviado no formulário**
+4. **Rota: /contato (POST) - página de resposta deve exibir o "mensagem" enviada no formulário**
+
+Agora, vamos investigar a causa raiz dos problemas. Ao analisar o seu código, percebi que a rota `app.post('/contato', ...)` está corretamente implementada para lidar com os dados do formulário de contato. No entanto, ao observar mais de perto, notei que você está tentando acessar os dados do formulário usando `req.query`, mas dados de formulários enviados via método POST devem ser acessados usando `req.body` em vez de `req.query`. Esse é o motivo pelo qual os dados não estão sendo exibidos corretamente na página de resposta. Vamos corrigir isso juntos!
+
+### 🎉 Conquistas Bônus 🏆
+1. Você criou um template exibido em requisições 404 contendo uma âncora para a rota raiz. Isso é ótimo para manter a navegação do usuário!
+2. Utilizou corretamente as tags label e o atributo id nos inputs 'nome' e 'ingredientes' na rota /sugestao. Essa atenção aos detalhes é essencial para uma boa prática de desenvolvimento!
+3. Utilizou corretamente as tags label e o atributo id nos inputs 'nome', 'email', 'assunto' e 'mensagem' do formulário da rota /contato (GET). Essa consistência é muito importante para a acessibilidade e usabilidade do formulário.
+
+### 📝 Instruções Finais
+Lembre-se de corrigir a forma como você está acessando os dados do formulário na rota de contato. Troque de `req.query` para `req.body` para garantir que os dados sejam exibidos corretamente na página de resposta. Continue com o seu ótimo trabalho, você está indo muito bem! Se tiver alguma dúvida ou precisar de mais ajuda, estou aqui para apoiar você. Vamos juntos tornar seu código ainda mais incrível! 💪😊
+
+Estou ansioso para ver suas melhorias! Se precisar de mais orientações, é só chamar. Você está no caminho certo! 🌟👨‍💻
