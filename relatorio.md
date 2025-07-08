@@ -13,7 +13,7 @@ Primeiramente, parabéns pela sua nota incrível de **95.78/100**! Isso mostra s
 ### 🎉 Conquistas Bônus:
 Antes de mais nada, quero celebrar suas conquistas:
 - Você criou um template para requisições 404 com uma âncora para a rota raiz. Muito bem pensado! 👏
-- Utilizou corretamente as tags label e os atributos id nos inputs 'nome' e 'ingredientes' na rota /sugestao, mostrando atenção aos detalhes. Ótimo trabalho! 🌟
+- Utilizou corretamente as tags label e os atributos id nos inputs 'nome' e 'ingredientes' na rota /sugestao, mostrando atenção aos detalhes. Ótimo trab alho! 🌟
 - E também, utilizou as tags label e os atributos id nos inputs 'nome', 'email', 'assunto' e 'mensagem' no formulário da rota /contato (GET). Excelente! 👍
 
 ### 🕵️‍♂️ Vamos Investigar os Requisitos:
